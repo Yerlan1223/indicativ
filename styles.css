@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    padding: 2em;
+}
+
+#article-container, #kpi-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.article, .kpi {
+    border: 1px solid #ddd;
+    padding: 1em;
+    border-radius: 5px;
+}
